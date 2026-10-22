@@ -14,7 +14,7 @@
     "@slidev/theme-seriph": "^0.25.0",
     "@types/node": "^26.6.5",
     "esno": "^4.8.0",
-    "execa": "^10.1.0",
+    "execa": "^10.2.0",
     "playwright-chromium": "^1.64.0",
     "typescript": "^7.0.2",
     "yaml": "^2.9.1"
