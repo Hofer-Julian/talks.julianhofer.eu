@@ -22,7 +22,7 @@ importers:
         version: 2.49.4
       '@slidev/cli':
         specifier: ^53.1.0
-        version: 53.1.0(@nuxt/kit@3.21.11)(@oxc-project/types@0.156.0)(@types/markdown-it@14.2.0)(@types/node@26.6.6)(@vitejs/devtools-kit@0.7.6(cac@7.1.0)(crossws@0.4.17(srvx@1.0.3))(srvx@1.0.3)(vite@8.3.6(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.13)(yaml@2.9.1)))(@vue/compiler-sfc@3.5.42)(cac@7.1.0)(crossws@0.4.17(srvx@1.0.3))(esbuild@0.28.2)(lightningcss@1.33.0)(markdown-it-async@2.2.0)(markdown-it@14.3.1)(oxc-parser@0.153.0)(playwright-chromium@1.65.0)(postcss@8.5.32)(rolldown@1.2.16)(srvx@1.0.3)(tsx@4.23.13)
+        version: 53.1.0(@nuxt/kit@3.21.11)(@oxc-project/types@0.156.0)(@types/markdown-it@14.2.0)(@types/node@26.6.6)(@vitejs/devtools-kit@0.7.6(cac@7.1.0)(crossws@0.4.17(srvx@1.0.3))(srvx@1.0.3)(vite@8.3.6(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.13)(yaml@2.9.1)))(@vue/compiler-sfc@3.5.42)(cac@7.1.0)(crossws@0.4.17(srvx@1.0.3))(esbuild@0.28.2)(lightningcss@1.33.0)(markdown-it-async@2.2.0)(markdown-it@14.3.1)(oxc-parser@0.153.0)(playwright-chromium@1.65.1)(postcss@8.5.32)(rolldown@1.2.16)(srvx@1.0.3)(tsx@4.23.13)
       '@slidev/theme-default':
         specifier: ^0.25.0
         version: 0.25.0
@@ -39,8 +39,8 @@ importers:
         specifier: ^10.2.1
         version: 10.2.1
       playwright-chromium:
-        specifier: ^1.65.0
-        version: 1.65.0
+        specifier: ^1.65.1
+        version: 1.65.1
       typescript:
         specifier: ^7.0.2
         version: 7.0.2
@@ -1626,14 +1626,6 @@ packages:
   cose-base@2.2.0:
     resolution: {integrity: sha512-AzlgcsCbUMymkADOJtQm3wO9S3ltPfYOFD5033keQn9NJzIbtnZj+UdBJe7DYml/8TdbtHJW3j58SOnKhWY/5g==}
 
-  crossws@0.4.12:
-    resolution: {integrity: sha512-aypfsr6t0uNvkqaZc6zvBfXzC6pLI0/sIulpkV6RwCVtZqG5ebBzv4weImKK0VNCj91Wl9F5j7p5WU4MNrybng==}
-    peerDependencies:
-      srvx: '>=0.11.5'
-    peerDependenciesMeta:
-      srvx:
-        optional: true
-
   crossws@0.4.17:
     resolution: {integrity: sha512-YG2kyfafNXKmu7e6k64yrj6whrw7m5sBIsOSXOlJ/72X3TQWRQuw8DhvXFDcBk8HF77PnTSygnm7xpYCTnFpow==}
     peerDependencies:
@@ -1856,18 +1848,6 @@ packages:
   detect-libc@2.1.2:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
-
-  devframe@1.0.0:
-    resolution: {integrity: sha512-u4eeDBJ8Cxd3n19o/cT6SQcoEgASzL9dL51IkYpIDriTNDmR7WBv+o+dufQmabir10KcozoRZqgwvDi/riASAQ==}
-    hasBin: true
-    peerDependencies:
-      '@devframes/agentic': 1.0.0
-      cac: ^7.0.0
-    peerDependenciesMeta:
-      '@devframes/agentic':
-        optional: true
-      cac:
-        optional: true
 
   devframe@1.3.2:
     resolution: {integrity: sha512-dvPSTSrGecjJ/EfyGKWYXDaSP+PvDM1hhlftKBsVSwUUyACKEYGO6PfrdKiuiFKz/GSvtTSPp9SfLHMbqXTTgw==}
@@ -2093,19 +2073,6 @@ packages:
   gray-matter@4.0.3:
     resolution: {integrity: sha512-5v6yZd4JK3eMI3FqqCouswVqwugaA9r4dNZB1wwcmrD02QkV5H0y7XBQW8QwQqEaZY1pM9aqORSORhJRdNK44Q==}
     engines: {node: '>=6.0'}
-
-  h3@2.0.1-rc.31:
-    resolution: {integrity: sha512-AG7qZzF99a0BSYoXT3evJgIhwSIUKow7R+hwkLRZS06WJ9nbSb7QXUDgs1ByBjp6svTvl++N/GKA7I9YPz9cQQ==}
-    engines: {node: '>=20.11.1'}
-    hasBin: true
-    peerDependencies:
-      crossws: ^0.4.12
-      ocache: '>=0.3.0'
-    peerDependenciesMeta:
-      crossws:
-        optional: true
-      ocache:
-        optional: true
 
   h3@2.0.8:
     resolution: {integrity: sha512-ENuKlF9kC6E6PrvY1PUyE0qkrnnPTIt2/v48uyEEfTVfgoiqBCE0uwwf++2XrWwT1gxjQBDLQ8PAsmZVniKvTw==}
@@ -2626,11 +2593,6 @@ packages:
   muggle-string@0.4.1:
     resolution: {integrity: sha512-VNTrAak/KhO2i8dqqnqnAHOa3cYBwXEZe9h+D5h/1ZqFSTEFHdM65lR7RoIqq3tBBYavsOXV84NoHXZ0AkPyqQ==}
 
-  nanoid@3.3.18:
-    resolution: {integrity: sha512-DTg4MJbGMWkfi6VZFdNt2/caMbQy4Ou+Op/hJQvGEWcnVfoA1QA+xzRKAzw9jD6+GVOOeYr/mIcuDSdug6F6+w==}
-    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
-    hasBin: true
-
   nanoid@3.3.20:
     resolution: {integrity: sha512-uKdg2G3GNCKQn9byYOpxbGqrT2fGO5KRt5J/8b3pok8rT6qxGWF6hxMyJiEYtAf+FVyYuD9hRaDqX5uPFYJ4ZQ==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
@@ -2649,9 +2611,6 @@ packages:
   normalize-path@3.0.0:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
     engines: {node: '>=0.10.0'}
-
-  nostics@1.2.0:
-    resolution: {integrity: sha512-FGqEfhQjrvo1lL8KFifdTQiNwwQHJxC1jtYE1Rc54qF/jxONUNL+kC9gS1krX8Q65PgrQ5fCqH/I4NhWBvdSqg==}
 
   nostics@1.3.0:
     resolution: {integrity: sha512-wzRsrJwNlFbqIRQt8aCeL2WE8USip/uuvGSOZV1D02CxX8ABTMbw8IywKjH7yWHETMXbWJI4OBpihg9rmz2Vyg==}
@@ -2763,13 +2722,13 @@ packages:
   plantuml-encoder@1.4.0:
     resolution: {integrity: sha512-sxMwpDw/ySY1WB2CE3+IdMuEcWibJ72DDOsXLkSmEaSzwEUaYBT6DWgOfBiHGCux4q433X6+OEFWjlVqp7gL6g==}
 
-  playwright-chromium@1.65.0:
-    resolution: {integrity: sha512-JoOushtSPjarMztjLEwMI0quu6yY+EvsDVytYyeyw/Hvz/GOsHXyAxWpEPKNR4UFUYt+FMrN/DH2YAM3HC55gA==}
+  playwright-chromium@1.65.1:
+    resolution: {integrity: sha512-XsGj9GBKk20UQVlwjbiSmArmTfNTrqbEw5SzTnV3J1uQCztQRsiPScSdiC2KoYuN3ItTN8/+IciM9/t/e9GctA==}
     engines: {node: '>=20'}
     hasBin: true
 
-  playwright-core@1.65.0:
-    resolution: {integrity: sha512-vNSKgH6YqtN7cdT/L334zo0a+YwkrpicyrHJlWWPIm/Q+Nn2SWInil01oT0mbu96U4GgoRtCYQD9CzJQgju+lA==}
+  playwright-core@1.65.1:
+    resolution: {integrity: sha512-hqPpz7blSMPxWVdoeE1yiBSzXsKiVOd2k+kjCvmUywD2GPO2Dd9HfcWnq9NN0GHbNZDFgZ9JfBFr+X5/BLo0qw==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -2791,10 +2750,6 @@ packages:
   postcss-selector-parser@7.2.0:
     resolution: {integrity: sha512-Khh/tERVBn0I1499dvBSHY0pWJloMJWUxDsOBM0CCDPAcVZ10Jl2L1qy1f19uEX22spa8Mv7DCdEQJc0cGwBhQ==}
     engines: {node: '>=4'}
-
-  postcss@8.5.28:
-    resolution: {integrity: sha512-RRuzqDtt5Y9h3quz5hWhK+TPnsmVs6WwSU6LkJMeY4HstUEDuYTG8UJSdawMRzmzAtV+KEoG8N3Qg2qLy5vM/A==}
-    engines: {node: ^10 || ^12 || >=14}
 
   postcss@8.5.32:
     resolution: {integrity: sha512-LJlKCCAUFKOuZxipUdYw1NzIITEsPcgyOG9LkvRJvuKj/bRzbuRY0ARXvL0pWGpsZvn8jku+LMep2eU0seHp8g==}
@@ -2889,9 +2844,6 @@ packages:
     resolution: {integrity: sha512-bWvlMpFKiTfDKfnK7FC2MPgPeWCf/Kpwsq49ApdW+FQaBZb6O6dZ4MAPbPUjp7hYQrw/RobqCzn64BRrQecGHw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
-
-  rou3@0.9.2:
-    resolution: {integrity: sha512-3SOzvaAg8rkHrXtRjpCvCvbyO5to9oOO27Z/XqHEYXfMRVSw/qMIVdmaOk9W2lcRLtR6dlqTjo9hDeJk70QBYQ==}
 
   rou3@1.0.0:
     resolution: {integrity: sha512-ySeaQkSrua+ut9g+65I7FHqOFBaY8tV0FmccXItoq0q21se32Q3u4YiW7/RqXSosWgYJaaKwRHXy3BST9PeCNQ==}
@@ -3693,10 +3645,10 @@ snapshots:
       js-yaml: 4.3.2
       markdown-it: 14.3.1
 
-  '@devframes/hub@1.3.2(crossws@0.4.17(srvx@1.0.3))(devframe@1.0.0(cac@7.1.0)(srvx@1.0.3))':
+  '@devframes/hub@1.3.2(crossws@0.4.17(srvx@1.0.3))(devframe@1.3.2(cac@7.1.0)(srvx@1.0.3))':
     dependencies:
       destr: 2.0.5
-      devframe: 1.0.0(cac@7.1.0)(srvx@1.0.3)
+      devframe: 1.3.2(cac@7.1.0)(srvx@1.0.3)
       h3: 2.0.8(crossws@0.4.17(srvx@1.0.3))
       pathe: 2.0.3
       tinyexec: 1.3.1
@@ -3705,13 +3657,13 @@ snapshots:
       - crossws
       - ocache
 
-  '@devframes/json-render@1.3.2(@devframes/hub@1.3.2(crossws@0.4.17(srvx@1.0.3))(devframe@1.0.0(cac@7.1.0)(srvx@1.0.3)))(devframe@1.0.0(cac@7.1.0)(srvx@1.0.3))':
+  '@devframes/json-render@1.3.2(@devframes/hub@1.3.2(crossws@0.4.17(srvx@1.0.3))(devframe@1.3.2(cac@7.1.0)(srvx@1.0.3)))(devframe@1.3.2(cac@7.1.0)(srvx@1.0.3))':
     dependencies:
       '@json-render/core': 0.21.4(zod@4.6.7)
-      devframe: 1.0.0(cac@7.1.0)(srvx@1.0.3)
+      devframe: 1.3.2(cac@7.1.0)(srvx@1.0.3)
       zod: 4.6.7
     optionalDependencies:
-      '@devframes/hub': 1.3.2(crossws@0.4.17(srvx@1.0.3))(devframe@1.0.0(cac@7.1.0)(srvx@1.0.3))
+      '@devframes/hub': 1.3.2(crossws@0.4.17(srvx@1.0.3))(devframe@1.3.2(cac@7.1.0)(srvx@1.0.3))
 
   '@drauu/core@1.0.0': {}
 
@@ -4171,7 +4123,7 @@ snapshots:
 
   '@sindresorhus/merge-streams@4.0.0': {}
 
-  '@slidev/cli@53.1.0(@nuxt/kit@3.21.11)(@oxc-project/types@0.156.0)(@types/markdown-it@14.2.0)(@types/node@26.6.6)(@vitejs/devtools-kit@0.7.6(cac@7.1.0)(crossws@0.4.17(srvx@1.0.3))(srvx@1.0.3)(vite@8.3.6(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.13)(yaml@2.9.1)))(@vue/compiler-sfc@3.5.42)(cac@7.1.0)(crossws@0.4.17(srvx@1.0.3))(esbuild@0.28.2)(lightningcss@1.33.0)(markdown-it-async@2.2.0)(markdown-it@14.3.1)(oxc-parser@0.153.0)(playwright-chromium@1.65.0)(postcss@8.5.32)(rolldown@1.2.16)(srvx@1.0.3)(tsx@4.23.13)':
+  '@slidev/cli@53.1.0(@nuxt/kit@3.21.11)(@oxc-project/types@0.156.0)(@types/markdown-it@14.2.0)(@types/node@26.6.6)(@vitejs/devtools-kit@0.7.6(cac@7.1.0)(crossws@0.4.17(srvx@1.0.3))(srvx@1.0.3)(vite@8.3.6(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.13)(yaml@2.9.1)))(@vue/compiler-sfc@3.5.42)(cac@7.1.0)(crossws@0.4.17(srvx@1.0.3))(esbuild@0.28.2)(lightningcss@1.33.0)(markdown-it-async@2.2.0)(markdown-it@14.3.1)(oxc-parser@0.153.0)(playwright-chromium@1.65.1)(postcss@8.5.32)(rolldown@1.2.16)(srvx@1.0.3)(tsx@4.23.13)':
     dependencies:
       '@antfu/ni': 30.6.0
       '@antfu/utils': 9.3.0
@@ -4246,7 +4198,7 @@ snapshots:
       yargs: 18.2.0
       zod: 4.6.7
     optionalDependencies:
-      playwright-chromium: 1.65.0
+      playwright-chromium: 1.65.1
     transitivePeerDependencies:
       - '@devframes/agentic'
       - '@farmfe/core'
@@ -4933,9 +4885,9 @@ snapshots:
 
   '@vitejs/devtools-kit@0.7.6(cac@7.1.0)(crossws@0.4.17(srvx@1.0.3))(srvx@1.0.3)(vite@8.3.6(@types/node@26.6.6)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.13)(yaml@2.9.1))':
     dependencies:
-      '@devframes/hub': 1.3.2(crossws@0.4.17(srvx@1.0.3))(devframe@1.0.0(cac@7.1.0)(srvx@1.0.3))
-      '@devframes/json-render': 1.3.2(@devframes/hub@1.3.2(crossws@0.4.17(srvx@1.0.3))(devframe@1.0.0(cac@7.1.0)(srvx@1.0.3)))(devframe@1.0.0(cac@7.1.0)(srvx@1.0.3))
-      devframe: 1.0.0(cac@7.1.0)(srvx@1.0.3)
+      '@devframes/hub': 1.3.2(crossws@0.4.17(srvx@1.0.3))(devframe@1.3.2(cac@7.1.0)(srvx@1.0.3))
+      '@devframes/json-render': 1.3.2(@devframes/hub@1.3.2(crossws@0.4.17(srvx@1.0.3))(devframe@1.3.2(cac@7.1.0)(srvx@1.0.3)))(devframe@1.3.2(cac@7.1.0)(srvx@1.0.3))
+      devframe: 1.3.2(cac@7.1.0)(srvx@1.0.3)
       local-pkg: 1.2.1
       nostics: 1.3.0
       package-manager-detector: 1.8.0
@@ -5012,11 +4964,11 @@ snapshots:
 
   '@vue/compiler-core@3.5.42':
     dependencies:
-      '@babel/parser': 7.29.8
+      '@babel/parser': 7.29.13
       '@vue/shared': 3.5.42
       entities: 7.0.1
       estree-walker: 2.0.2
-      source-map-js: 1.2.1
+      source-map-js: 1.2.2
 
   '@vue/compiler-core@3.5.45':
     dependencies:
@@ -5038,15 +4990,15 @@ snapshots:
 
   '@vue/compiler-sfc@3.5.42':
     dependencies:
-      '@babel/parser': 7.29.8
+      '@babel/parser': 7.29.13
       '@vue/compiler-core': 3.5.42
       '@vue/compiler-dom': 3.5.42
       '@vue/compiler-ssr': 3.5.42
       '@vue/shared': 3.5.42
       estree-walker: 2.0.2
       magic-string: 0.30.21
-      postcss: 8.5.28
-      source-map-js: 1.2.1
+      postcss: 8.5.32
+      source-map-js: 1.2.2
 
   '@vue/compiler-sfc@3.5.45':
     dependencies:
@@ -5347,10 +5299,6 @@ snapshots:
     dependencies:
       layout-base: 2.0.1
 
-  crossws@0.4.12(srvx@1.0.3):
-    optionalDependencies:
-      srvx: 1.0.3
-
   crossws@0.4.17(srvx@1.0.3):
     optionalDependencies:
       srvx: 1.0.3
@@ -5580,18 +5528,6 @@ snapshots:
   destr@2.0.5: {}
 
   detect-libc@2.1.2: {}
-
-  devframe@1.0.0(cac@7.1.0)(srvx@1.0.3):
-    dependencies:
-      crossws: 0.4.12(srvx@1.0.3)
-      h3: 2.0.1-rc.31(crossws@0.4.12(srvx@1.0.3))
-      nostics: 1.2.0
-      pathe: 2.0.3
-    optionalDependencies:
-      cac: 7.1.0
-    transitivePeerDependencies:
-      - ocache
-      - srvx
 
   devframe@1.3.2(cac@7.1.0)(srvx@1.0.3):
     dependencies:
@@ -5823,13 +5759,6 @@ snapshots:
       kind-of: 6.0.3
       section-matter: 1.0.0
       strip-bom-string: 1.0.0
-
-  h3@2.0.1-rc.31(crossws@0.4.12(srvx@1.0.3)):
-    dependencies:
-      rou3: 0.9.2
-      srvx: 1.0.3
-    optionalDependencies:
-      crossws: 0.4.12(srvx@1.0.3)
 
   h3@2.0.8(crossws@0.4.17(srvx@1.0.3)):
     dependencies:
@@ -6472,8 +6401,6 @@ snapshots:
 
   muggle-string@0.4.1: {}
 
-  nanoid@3.3.18: {}
-
   nanoid@3.3.20: {}
 
   nanotar@0.3.0: {}
@@ -6483,8 +6410,6 @@ snapshots:
   node-releases@2.0.54: {}
 
   normalize-path@3.0.0: {}
-
-  nostics@1.2.0: {}
 
   nostics@1.3.0: {}
 
@@ -6603,11 +6528,11 @@ snapshots:
 
   plantuml-encoder@1.4.0: {}
 
-  playwright-chromium@1.65.0:
+  playwright-chromium@1.65.1:
     dependencies:
-      playwright-core: 1.65.0
+      playwright-core: 1.65.1
 
-  playwright-core@1.65.0: {}
+  playwright-core@1.65.1: {}
 
   points-on-curve@0.2.0: {}
 
@@ -6631,12 +6556,6 @@ snapshots:
   postcss-selector-parser@7.2.0:
     dependencies:
       util-deprecate: 1.0.2
-
-  postcss@8.5.28:
-    dependencies:
-      nanoid: 3.3.18
-      picocolors: 1.1.1
-      source-map-js: 1.2.1
 
   postcss@8.5.32:
     dependencies:
@@ -6750,8 +6669,6 @@ snapshots:
       '@rolldown/binding-win32-arm64-msvc': 1.2.16
       '@rolldown/binding-win32-x64-msvc': 1.2.16
 
-  rou3@0.9.2: {}
-
   rou3@1.0.0: {}
 
   roughjs@4.6.6:
@@ -6816,7 +6733,8 @@ snapshots:
 
   sprintf-js@1.0.3: {}
 
-  srvx@1.0.3: {}
+  srvx@1.0.3:
+    optional: true
 
   srvx@1.0.8: {}
 
